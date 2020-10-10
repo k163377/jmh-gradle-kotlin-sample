@@ -6,6 +6,7 @@ import org.openjdk.jmh.annotations.State
 import java.math.BigDecimal
 import java.util.concurrent.ThreadLocalRandom
 
+// JMHのベンチマーク関連の内容は`open class`として定義する必要が有る
 open class SampleBenchmark {
     @State(Scope.Thread)
     open class Input {
